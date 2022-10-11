@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{vue, sass}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        text: '#F5F1D3'
+      }
+    }
   },
-  plugins: [],
-}
+  plugins: []
+};
